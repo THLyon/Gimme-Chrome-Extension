@@ -6,7 +6,7 @@
         {
           "matches": ["<all_urls>"],
           "js": [
-            "content.js"
+            "./src/Popup/content.js"
           ]
         }
       ]

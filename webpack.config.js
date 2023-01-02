@@ -23,7 +23,7 @@ module.exports = {
     extensions: [".jsx", ".js", ".ts"],
   },
   output: {
-    filename: "content.js",
+    filename: "./src/Popup/content.js",
     path: path.resolve(__dirname, "..", "extension"),
   },
 };
