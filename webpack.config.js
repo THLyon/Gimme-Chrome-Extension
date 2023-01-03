@@ -9,7 +9,7 @@ module.exports = {
         test: /\.jsx?$/,
         use: [
           {
-            loader: "ts-loader",
+            loader: "js-loader",
             options: {
               compilerOptions: { noEmit: false },
             },
