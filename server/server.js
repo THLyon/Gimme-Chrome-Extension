@@ -28,7 +28,7 @@ app.use('/api', apiRouter, (req,res) => {
 
 app.get('/', (req, res) => {
    // return res.status(200).sendFile(path.join(__dirname, './build/index.html'));
-    return res.status(200).sendFile(path.join(__dirname, '../client/index.html'));
+    return res.status(200).sendFile(path.join(__dirname, './src/index.html'));
 });
 
 //Local error handler

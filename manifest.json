@@ -6,8 +6,13 @@
         {
           "matches": ["<all_urls>"],
           "js": [
-            "./src/Popup/content.js"
-          ]
+             "./src/index.js" 
+          ],
+          "run_at": "document_start"
         }
-      ]
+      ],
+      "action": {
+        "default_popup": "./src/Popup/Popup.html",
+        "default_title": "Gimme"
+      }
   }
